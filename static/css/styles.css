@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+    width: 920px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#add-new-customer input[type=text] {
+    display: inline-block;
+    margin: 0 0 0 30px;
+    width: 150px;
+    padding: 5px;
+}
+
+#add-new-customer input[type=submit] {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+}
+
+#customers-table, #orders-table {
+    border-collapse: collapse;
+}
+
+#customers-table th, #orders-table th {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #000;
+    background: #ccc;
+    width: 250px;
+}
+
+#customers-table td, #orders-table td {
+    padding: 5px;
+    border: 1px solid #000;
+    width: 250px;
+}
+
+#customers-table tbody tr:nth-child(odd), #orders-table tbody tr:nth-child(odd) {
+    background: #eee;
+}
+
+.last-col {
+    width: 150px !important;
+}
+
+#search-name {
+    padding: 0 0 0 446px;
+    clear: both;
+}
+
+#search-name input {
+    padding: 5px;
+}
+
+.error {
+    color: red;
+}
