@@ -1,0 +1,16 @@
+{
+  "name": "angularjs-mini-store",
+  "version": "0.0.1",
+  "description": "AngularJS Mini Store",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hollyw00d/angularjs-mini-store"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.13.x"
+  }
+}
